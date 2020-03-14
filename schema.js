@@ -16,7 +16,7 @@ const typeDefs = gql`
 	type Mutation {
 		addHighlight(title: String!, content:String , author:String): Highlight!
 		updateHighlight(id:ID!,  content:String!): Highlight!
-		deleteHightlight(id:ID!): Highlight
+		deleteHighlight(id:ID!): Highlight
 	}
 `;
 
